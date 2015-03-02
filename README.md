@@ -25,4 +25,6 @@ Algoritmos a utilizar
 		Los procesos nuevos se forman también al final de esta
 		misma cola
 
+Bibliografia: http://sistop.gwolf.org/laminas/08_algoritmos_planif_proc.pdf
+
 
