@@ -3,6 +3,7 @@
 Algoritmos a utilizar 
 
 -	Mecanismos con múltiples colas
+	
 		Hasta ahora, se evalúa cómo ordenar los procesos en la
 		cola única de procesos listos
 		Dar trato diferenciado a procesos con perfiles distintos es
@@ -14,6 +15,7 @@ Algoritmos a utilizar
 		colas
 
 -	Ronda (Round Robin)
+	
 		Busca dar buena respuesta tanto a procesos cortos como
 		largos
 		Requiere multitarea preventiva
