@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 /**
- *
+ * @author Alejandra
  * @author carlos
  */
 public class CPU {
