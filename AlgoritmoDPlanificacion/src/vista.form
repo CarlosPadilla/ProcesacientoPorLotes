@@ -47,12 +47,15 @@
                                   </Group>
                               </Group>
                           </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="192" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
@@ -95,7 +98,7 @@
                       <Component id="jScrollPane4" min="-2" pref="64" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
               <Component id="jLabel3" min="-2" pref="134" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
           </Group>
@@ -162,6 +165,7 @@
           <Image iconType="2" name="C:\Users\ALEJANDRA KSTELLANOS\Desktop\Diapositiva43.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel3"/>
+        <Property name="verticalAlignment" type="int" value="1"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -175,6 +179,7 @@
           <Properties>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Una interrupci&#xf3;n de reloj es generada a intervalos peri&#xf3;dicos. &#xa;Cuando ocurre la interrupci&#xf3;n, el proceso en ejecuci&#xf3;n es &#xa;colocado en la cola de procesos listos y el pr&#xf3;ximo trabajo &#xa;es seleccionado basado en el esquema FCFS. A cada proceso &#xa;se le da un trozo de tiempo."/>
           </Properties>
         </Component>
       </SubComponents>
