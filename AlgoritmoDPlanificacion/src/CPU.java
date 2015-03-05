@@ -8,13 +8,15 @@
  * @author carlos
  */
 public class CPU {
-    public Proceso[] cola; 
-    public Proceso[] enEjecucion; 
+    private Proceso[] cola; 
+    private Proceso[] enEjecucion; 
+    private vista VMenu;
     public int tamaño;
 
 //    colasmultiples
-    public CPU(int tamaño){
+    public CPU(vista visual, int tamaño){
         this.cola = new Proceso[tamaño];
+        this.VMenu = visual;
     }
 //    roundRobin
     public CPU(){
