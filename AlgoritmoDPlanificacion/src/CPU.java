@@ -9,12 +9,12 @@
  */
 public class CPU {
     private Proceso[] cola; 
-    private Proceso[] enEjecucion; 
-    private vista VMenu;
+    private Proceso enEjecucion; 
+    private ejecucion VMenu;
     public int tamaño;
 
 //    colasmultiples
-    public CPU(vista visual, int tamaño){
+    public CPU(ejecucion visual, int tamaño){
         this.cola = new Proceso[tamaño];
         this.VMenu = visual;
     }
@@ -26,12 +26,17 @@ public class CPU {
 
     }
     public void imprimir(){
+        for (Proceso proceso : this.cola) {
+            if (proceso != null) {
+                System.out.println(proceso.toString());
+            }
+        }
 
     }
     public void recorrer(){
 
     }
-    public void nuevoProceso(){
-
+    public void nuevoProceso(String nombre, int tiempo, char prioridad){
+        this.cola[0] = new Proceso(nombre, tiempo, prioridad);
     }
 }
