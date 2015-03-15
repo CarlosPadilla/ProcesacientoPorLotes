@@ -45,9 +45,9 @@ Algoritmos a utilizar
 		- Puede modificarse incrementando el quantum
 		- Reduce la frecuencia de cambios de contexto
 		- Para valores grandes de q, tiende a convertirse en FCFS
-		- ProcesacientoPorLotes
-simulación de una unidad central de procesamiento y la ejecución de procesos por lotes
+
+-	 ProcesacientoPorLotes
+		- simulación de una unidad central de procesamiento y la ejecución de procesos por lotes
 
 Bibliografia: http://sistop.gwolf.org/laminas/08_algoritmos_planif_proc.pdf
-
 
