@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # algoritmos-de-planificacion
 
-Algoritmos a utilizar 
+Algoritmos a utilizar
 
 -	Mecanismos con múltiples colas
-	
+
 		Hasta ahora, se evalúa cómo ordenar los procesos en la
 		cola única de procesos listos
 		Dar trato diferenciado a procesos con perfiles distintos es
@@ -14,7 +13,7 @@ Algoritmos a utilizar
 		migración de una cola a otra
 		Dando un trato diferenciado a los procesos de distintas
 		colas
-		
+
 		- Multilevel Feedback
 		- Multitarea preventiva
 		- Se crea no una, sino varias colas de procesos listos
@@ -30,7 +29,7 @@ Algoritmos a utilizar
 		evaluar un número limitado de colas
 
 -	Ronda (Round Robin)
-	
+
 		Busca dar buena respuesta tanto a procesos cortos como
 		largos
 		Requiere multitarea preventiva
@@ -39,18 +38,16 @@ Algoritmos a utilizar
 		vuelta al final de la cola
 		Los procesos nuevos se forman también al final de esta
 		misma cola
-		
+
 		- Alta frecuencia de cambios de contexto
 		- A pesar de que el algoritmo es simple, la sobrecarga
 		administrativa (burocracia) es alta
 		- Puede modificarse incrementando el quantum
 		- Reduce la frecuencia de cambios de contexto
 		- Para valores grandes de q, tiende a convertirse en FCFS
+		- ProcesacientoPorLotes
+simulación de una unidad central de procesamiento y la ejecución de procesos por lotes
 
 Bibliografia: http://sistop.gwolf.org/laminas/08_algoritmos_planif_proc.pdf
 
 
-=======
-# ProcesacientoPorLotes
-simulación de una unidad central de procesamiento y la ejecución de procesos por lotes
->>>>>>> origin/master
