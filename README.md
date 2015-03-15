@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # algoritmos-de-planificacion
 
 Algoritmos a utilizar 
@@ -49,3 +50,7 @@ Algoritmos a utilizar
 Bibliografia: http://sistop.gwolf.org/laminas/08_algoritmos_planif_proc.pdf
 
 
+=======
+# ProcesacientoPorLotes
+simulación de una unidad central de procesamiento y la ejecución de procesos por lotes
+>>>>>>> origin/master

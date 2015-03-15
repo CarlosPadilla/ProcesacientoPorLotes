@@ -13,14 +13,16 @@ class Proceso {
     private int time;
     private char priority;
     public Proceso(String nombre, int time, char priority){
-        
+        this.nombre = nombre;
+        this.time = time;
+        this.priority = priority;
     }
     public Proceso(String nombre, int time){
         
     }
      @Override
     public String toString(){
-        return null;
+        return "hola " + this.nombre + " tiempo: " + this.time;
 
     }
 }
